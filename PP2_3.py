@@ -26,7 +26,21 @@ def q2():
 
 
 def q3():
-    
+    num =  int(input("Input a number :"))
+    morenum =  int(input("Input another number :"))
+    evenmorenum =  int(input("Input a third number :"))
+
+    if num + morenum <= evenmorenum:
+        print("No Triangle")
+
+    elif num == morenum == evenmorenum:
+        print("Equilateral")
+
+    elif num == morenum:
+        print("Isosceles")
+
+    else:
+        print("Scalene")
 
 
 
